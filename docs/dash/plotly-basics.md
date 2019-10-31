@@ -32,11 +32,11 @@ Data must first be in a list
 <br>
 <br>
 ### Save HTML file
-pyo.plot(data, filename = "<insert name>.html")
+`pyo.plot(data, filename = "<insert name>.html")`
 <br>
 <br>
 
 ### Execute
-fig = go.Figure(data=data,layout=layout)
-pyo.plot(fig,filename="<filename>.html")
+`fig = go.Figure(data=data,layout=layout)`
+`pyo.plot(fig,filename="<filename>.html")`
 
