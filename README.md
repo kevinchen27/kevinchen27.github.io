@@ -17,8 +17,8 @@ pip install mkdocs-rtd-dropdown
 ```
 4. 
 ```
-mkdocs new my-project
-cd my-project
+mkdocs new <folder-name>
+cd <foldern-name>
 ```
 5. 
 ```
