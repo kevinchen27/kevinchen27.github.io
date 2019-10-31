@@ -15,3 +15,10 @@ Convert list to array
 `mylist = [1,2,3,4]`
 <br>
 `arr = np.array(mylist)`
+<br>
+
+## Shaping 1D to 2D array
+
+`arr.reshape(2,2)`
+<br>
+Two rows, two columns
