@@ -13,4 +13,5 @@ import numpy as np
 Convert list to array
 <br>
 `mylist = [1,2,3,4]`
+<br>
 `arr = np.array(mylist)`
