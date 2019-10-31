@@ -40,4 +40,3 @@ pyo.plot(data, filename = "<insert name>.html")
 fig = go.Figure(data=data,layout=layout)
 pyo.plot(fig,filename="<filename>.html")
 
-## 
