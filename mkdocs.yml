@@ -33,7 +33,7 @@ markdown_extensions:
 
 
 nav:
-- Home: index.md
+- Home: home.md
 
 - Dash:
   - Numpy Basics: dash/numpy-basics.md
