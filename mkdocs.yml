@@ -35,36 +35,12 @@ markdown_extensions:
 nav:
 - Home: index.md
 
-- Setting Up Tools:
-  - Setting up Python: setup/anaconda.md
-  - Setting up Environment: setup/env.md
-  - Setting up Elasticsearch : setup/elastic.md
-  - Setting up Neo4J: setup/neo4j.md
-  - Setting up MongoDB: setup/mongo.md
-  - Setting up Git: setup/git.md
+- Dash:
+  - Numpy Basics: dash/numpy-basics.md
+  - Pandas Basics: dash/pandas-basics.md
+  - Plotly Basics : dash/plotly-basics.md
 
-- Introduction: 
-  - Workflow: workflow.md
-  
-- Download and Processing:
-  - Download Pipeline: download/download.md
-  - Parsing Pipeline: parsing/parsing.md
-  
-- Database and Functionality:
-  - NoSQL Database: mongo/mongo.md
-  - Indexing Database: indexing/indexing.md
-  - Graph Database: graph/graph.md
-  
-- Algorithm and Querries:
-  - Queries in NetworkX: graph/query_nx.md
-  - Queries in Neo4j: graph/query_neo4j.md
-
-- User Interface: 
-  - Flask: flask/flask.md
-  
-- Data Analysis: 
-  - Exploratory: explore/explore.md 
-  - Model Based Analysis:
-      - Clustering: models/clustering.md
-      - Link Prediction : models/link.md
-      - Randomwalk : models/random-walk.md
+- Flask: 
+  - Intro to Flask: flask/flask-concepts.md
+  - Creating First Website: flask/first-website.md
+  - Dynamic Routing: flask/dynamic-routing.md
