@@ -14,7 +14,7 @@ Basic plotly gives us idea of Dash syntax and documentation
 Data must first be in a list
 <br>
 `data = [go.Scatter(x= <list of values for x-axis>,
-                   y =<list of values for y-axis>,
+    y =<list of values for y-axis>,
                    mode = 'markers', 
                   marker = dict(size = 12,
                                color = "rgb(51,204,153)",
