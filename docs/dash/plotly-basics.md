@@ -38,5 +38,6 @@ Data must first be in a list
 
 ### Execute
 `fig = go.Figure(data=data,layout=layout)`
+<br>
 `pyo.plot(fig,filename="<filename>.html")`
 
