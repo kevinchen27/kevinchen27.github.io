@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Lyft Rides</title>
+		<title>NBA Offensive Analysis</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -20,19 +20,7 @@
 				<!-- Header -->
 					<header id="header">
 						<a href="index.html" class="logo">Back</a>
-					</header>
-
-				<!-- Nav -->
-					<nav id="nav">
-						<ul class="links">
-							<li><a href="index.html">Projects</a></li>
-							<li class="active"><a href="aboutme.html">About Me</a></li>
-						</ul>
-						<ul class="icons">
-							<li><a href="https://www.linkedin.com/in/kevinchen27/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-							<li><a href="https://github.com/kevinchen27" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-						</ul>
-					</nav>
+					</header>	
 
 				<!-- Main -->
 					<div id="main">
@@ -40,10 +28,46 @@
 						<!-- Post -->
 							<section class="post">
 								<header class="major">
-									<h1>Analyzing Lyft Rides data</h1>
+									<h1>NBA: Shot Selection and Offensive Rating</h1>
 								</header>
-								<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Curabitur sapien risus, commodo eget turpis at, elementum convallis enim turpis, lorem ipsum dolor sit amet nullam.</p>
-								<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus. Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum.</p>
+									<p>The three-point revolution. Moreyball. Whatever you may call the high rate of threes being attempted in today's NBA, it is a playstyle that seems like it is here to stay and seemingly for good reason. A team such as the Houston Rockets will probably point to their offensive and overall success in recent years as evidence of the benefits of shooting more threes. Players are told to minimize midrange shots (shots between the paint and the three-point line) and teams like the Rockets almost avoid them completely. But, are these Houston Rockets teams outliers because of their arsenal of shooters, or does shooting more threes actually improve a team's offense?
+										<br>
+										<br>
+										To answer this question, I investigated NBA team data from 2007 (when Daryl Morey took over as General Manager of the Rockets) until the most recent NBA season. The metric I decided to include in my assessement was Offensive Rating, since it is widely used as the overall measure of a team's offense. Offensive Rating is the number of points scored by a team per 100 posessions and standardizes the points scored by teams. Thus, my initial hypothesis was that if shooting threes is beneficial for the team, then their should be a correlation between three-pointers attempted and offensive rating. Likewise, if midrange shots are detrimental to a team's offense, then shooting more of them should hurt their overall offense. 
+										<br>
+										<br>
+										Indeed, graphs that measured these two types of shots against offensive rating showed a distinct negative relationship between a offensive rating and midrange shots attempted while indicating a positive correlation between three-point attempts and offensive performance. </p>
+										
+										
+										<img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/OffRtg%20vs%20Midrange%20Att.png" width="400"/> <img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/offrtg%20vs%203p%20att.png" width="400"/>
+										
+										<p>To investigate further, I wanted to see whether the league average offensive rating improved year-on-year along with the increase in threes attempted. Interestingly, there were quite a few years where the NBA's average offensive rating was higher than in years where the league as a whole attempted more threes. Yet, over the past three years when three-point attempts have ballooned, the league's average offensive rating has skyROCKETed (get it?).</p>
+										
+										<p align = "center">
+										<img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/Offleader%203p.png" width="500" align = "middle"/>
+										</p>
+										
+										<p>As an even stronger argument for attempting more threes, every year's top offensive team almost always attempted more threes over the course of the season than the league average. The only exception to this was the 2008 Utah Jazz, who attempted almost 6% fewer threes than the league and yet led the NBA in offensive rating. But, if the best offensive team is the standard to adhere to, shooting more threes will *probably* give you a higher chance of leading the league in offense. 
+											</p>
+										
+										<p align = "center">
+										<img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/off%20rtg%20leaders%20vs%20league.png" width="500" align = "middle"/>
+										  
+										<p> Surprisingly, the best offenses in the league didn't always attempt fewer midrange shots than the league average. As a matter of fact, in the most recent season of the three-point revolution, the Golden State Warriors led the league in offense while attempting a considerable amount of midrange shots. This could be attributed to the shot selection and efficiency of Kevin Durant, who shoots at a high volume from midrange but with astounding accuracy, making over 50% of his shots from that range.
+										  </p>
+
+										<p align = "center">
+										<img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/offrtg%20mid%20leader.png" width="500" align = "middle"/>
+										</p>
+										
+										<p>Even if we expand on our selection of the NBA's best offenses to include the top 10 teams in terms of offensive rating, many of these teams also placed among the top 10 in three pointers attempted. On the other hand, teams that were in the top 10 in mirdange shots attempted didn't quite crack the League's top 10 offense as frequently. In fact, teams in the top 10 for midrange shots attempted never comprised even half of the the league's top 10 offensive teams.
+										</p>
+
+										<img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/3pt%20vs%20top%20off.png" width="400"/> <img src="https://github.com/kevinchen27/Off-Rating/blob/master/images/midrange%20top10.png" width="400"/>
+										
+										<p>The data suggests that attempting more three pointers will likely help you generate better offense too. That is not to say midrange shots won't propel you to the best offense in the League (cue 2008 Utah Jazz and 2019 Golden State Warriors), but you would probably need to have the best midrange sniper in the game in Kevin Durant to do that. Furthermore, the league average three-point attempts have only continued to increase, so don't expect that to stop anytime soon. Of course, there are plenty of other factors, such as a team's field goal % at the rim or the best offense probably also having the best three-point shooters, that affect offensive rating. Even turnovers also count against offensive rating. However, there is a clear and obvious relationship between offensive performance and three-pointers attempted that simply cannot be ignored.
+										</p>
+									
 							</section>
 
 					</div>
